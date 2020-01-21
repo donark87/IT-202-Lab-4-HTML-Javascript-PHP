@@ -1,0 +1,67 @@
+
+.main {
+
+  color: black;
+  border-radius: 20px;
+  Border-color: Solidblack;
+  background-color: rgba(105, 193, 240, 0.3);
+}
+.main th
+{
+  border-style: hidden;
+  width: 40%;
+  padding: 2%;
+
+
+}
+.main td
+{
+  border-style: hidden;
+  width: 40%;
+  padding: 2%;
+
+
+}
+
+
+h1
+{
+  
+  font-family: Courier;
+}
+.submit
+{
+  position: relative;
+  
+  top: 20px;
+  border-radius: 20px;
+  background-color: rgba(105, 193, 240, 0.70);
+  font-size: 30px;
+  font-family: Courier;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+.submit:hover{
+  opacity: 0.80;
+}
+.patrons{
+  
+  width: 40%;
+  padding: 2%;
+  
+}
+.patrons th{
+  border-style: solid;
+  width: 40%;
+  padding: 2%;
+  text-align: center;
+}
+.patrons td{
+  border-style: solid;
+  border-color: gray;
+  width: 30%;
+  padding: 2%;
+  text-align: center;
+}
+
+

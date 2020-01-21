@@ -1,0 +1,41 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" src="DonarkPatel-Assignment_4.js"></script>
+
+
+</head>
+<body>
+<div class="LogIn">
+    <h1>Smiles Galore Dental</h1>
+    <form action="newfile1.php" onsubmit=" return validate()" method="POST">
+      <table class="main" border="border">
+
+		      <tr>
+		        <td>First Name:(Required)</td>
+		        <td><label> <input type="text" id="firstName" name="firstName" /> </label></td>
+		      </tr>
+		       <tr>
+		        <td>Last Name:(Required)</td>
+		        <td><label> <input type="text" id="lastName" name="lastName" /> </label></td>
+		      </tr>
+		      <tr>
+		        <td><label for="password">Password:(Required)</label></td>
+		        <td><input type="password" id="password" name="password"  /></td>
+		      </tr>
+		
+		      <tr>
+		          <td><label for="ID">ID:(Required)</label></td>
+		          <td><input type="text" id="PatientID" name="PatientID" /></td>
+		      </tr> 
+		                    
+      </table>
+      			<input type="submit" onclick=" return validate()" name="submitForm" value="log in" class="submit">
+      			    			
+ 	</form>
+ 	
+ </div>
+
+</body>
+
+</html>
